@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 
 __author__ = "Ismael"
 __copyright__ = "Copyright 2019, GuadalPING SL"
