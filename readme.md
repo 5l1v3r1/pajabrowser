@@ -1,5 +1,4 @@
-# Project title
-pajabrowser
+# Pajabrowser
 ![pajabrowser](http://dibujosa.com/images/12727.jpg)
 # How to
 ``` git clone https://github.com/GuadalPING/pajabrowser```
