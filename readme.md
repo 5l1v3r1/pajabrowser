@@ -7,6 +7,7 @@
 # Android
 Install termux from play store
 ``` pkg install git ```
+``` pkg install python ```
 ``` git clone https://github.com/GuadalPING/pajabrowser```
 ``` cd pajabrowser ```
 ``` python3 android_pajabrowser.py ```
