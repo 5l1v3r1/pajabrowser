@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-__author__ = "Ismael"
+__author__ = "Alejandro Santa-Weed"
 __copyright__ = "Copyright 2019, GuadalPING SL"
-__credits__ = ["Ismael Joyera Aguilar", "Diego Gamaza", "Alejandro Santamaría"]
+__credits__ = ["Ismael Joyera Aguilar", "Diego Gamaza", "Alejandro Santamery"]
 __license__ = "GNU/GPLv3"
 __version__ = "1.0.1"
 __email__ = "guadalping@gmail.com"
