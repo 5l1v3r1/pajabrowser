@@ -26,7 +26,16 @@ print("""
 
 """)
 
-html = requests.get("https://pornhub.com").text  # gets main page html
+proxies = {'http':'socks5h://127.0.0.1:9050', 'https':'socks5h://127.0.0.1:9050'} # tor proxy
+
+try:
+  requests.get("https://google.es", proxies=proxies)
+except:
+  print("Tor Not Working, use 'sudo service tor start'")
+  exit()
+
+html = requests.get("https://pornhub.com", proxies=proxies).text  # gets main page html
+
 soup = BeautifulSoup(html, "lxml")  # soup object
 things = []  # links list
 for a in soup.find_all('a', href=True):  # find links
